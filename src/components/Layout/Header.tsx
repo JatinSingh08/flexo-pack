@@ -5,7 +5,7 @@ import {AiOutlineMenu} from 'react-icons/ai'
 
 const Header = () => {
   return (
-    <div className="shadow-md px-2 sm:px-10 md:px-24  py-3 sm:py-10 flex items-center justify-between bg-[#224c89] ">
+    <div className="shadow-md px-2 sm:px-10 md:px-24  py-3 sm:py-5 flex items-center justify-between bg-[#224c89] ">
        <ul className="text-white flex items-center justify-center gap-3 sm:gap-8">
         <li><Link href='/' className="text-xs sm:text-2xl font-semibold">Home</Link></li>
         <li><Link href='/' className="text-xs sm:text-2xl font-semibold">About Us</Link></li>
