@@ -43,7 +43,7 @@ const BrandPartners = () => {
 
   return (
     <div className="flex-col flex items-center justify-center mt-10 sm:mt-20">
-      <p className="text-4xl font-bold bg-[#224c89] py-6 w-full text-white text-center">BRAND GALLERY</p>
+      <p className="text-2xl sm:text-4xl font-bold bg-[#224c89] py-4 sm:py-6 w-full text-white text-center">BRAND GALLERY</p>
       {/* <div className="relative w-full overflow-hidden">
         <div
           className="flex items-center justify-center gap-10 relative w-full overflow-hidden h-20"
