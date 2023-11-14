@@ -12,7 +12,7 @@ const Purpose = () => {
             <span className="font-bold text-3xl">19</span> Years To Infinity...
           </p>
           <p className="text-[#4269a2] font-bold text-4xl sm:text-6xl mt-2">Our Purpose</p>
-          <p className="mx-0 sm:mx-2 mt-4">
+          <p className="mx-0 sm:mx-1 mt-4 text-base sm:text-lg">
             At Flexo pack, we constantly strive to be a globally preferred health care
             partner focussed on Innovative, Quality products and services
             resulting in enhanced value for our stakeholders. Driven by this
