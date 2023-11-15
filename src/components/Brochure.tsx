@@ -37,7 +37,10 @@ const Brochure = () => {
             Scan Me <AiOutlineArrowUp className="w-6 h-6" />
           </button>
         </div>
-        <Image alt="qr-code" src={PDF} className="w-24 h-24 object-contain" />
+        <div>
+          <Image alt="qr-code" src={PDF} className="w-24 h-24 object-contain cursor-pointer" />
+          <p className='text-base underline-offset-4 underline cursor-pointer'>Download Brochure</p>
+        </div>
       </div>
     </div>
     <div className='flex flex-col justify-center items-center'>

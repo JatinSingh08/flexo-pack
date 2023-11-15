@@ -57,21 +57,30 @@ const BrandPartners = () => {
             <section className='slider'>
               {brands.map((image, index) => (
                 <div key={index} >
-                  <Image src={image} alt="logo" className="image" />
+                  <Image src={image} 
+                  width={800}
+                  height={600}
+                  alt="logo" className="image" />
                 </div>
               ))}
             </section>
             <section className='slider'>
               {brands.map((image, index) => (
                 <div key={index} >
-                  <Image src={image} alt="logo" className="image" />
+                  <Image src={image}
+                   width={800}
+                   height={600}
+                  alt="logo" className="image" />
                 </div>
               ))}
             </section>
             <section className='slider'>
               {brands.map((image, index) => (
                 <div key={index} >
-                  <Image src={image} alt="logo" className="image"  />
+                  <Image src={image}
+                   width={800}
+                   height={600}
+                  alt="logo" className="image"  />
                 </div>
               ))}
             </section>
