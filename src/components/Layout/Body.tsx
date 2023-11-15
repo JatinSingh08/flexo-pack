@@ -32,12 +32,12 @@ const Body = () => {
             />
           </SwiperSlide>
         ))}
-        <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-slate-900 cursor-pointer font-bold z-[99]">
+        {/* <div className="absolute top-1/2 left-4 transform -translate-y-1/2 text-slate-900 cursor-pointer font-bold z-[99]">
           <CiCircleChevLeft className="w-8 h-8" />
         </div>
         <div className="absolute top-1/2 right-4 transform -translate-y-1/2 text-slate-900 cursor-pointer font-bold z-[99]">
           <CiCircleChevRight className="w-8 h-8" />
-        </div>
+        </div> */}
       </Swiper>
     </div>
   );
