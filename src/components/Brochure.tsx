@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const Brochure = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center items-start justify-center px-4 sm:px-10 mt-20 gap-10 sm:gap-2">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center items-start justify-center px-4 sm:px-10 mt-14 sm:mt-20 gap-10 sm:gap-2">
     <div className="flex flex-col items-center justify-center gap-6">
       <p className="text-2xl sm:text-3xl font-semibold text-blue-600">
         Why Flexo Pack...

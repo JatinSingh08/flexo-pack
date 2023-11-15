@@ -5,8 +5,8 @@ import Presence from '@/assets/presence.png';
 
 const Purpose = () => {
   return (
-    <div className='px-4 sm:px-10 mt-14 flex flex-col sm:flex-row items-center justify-center gap-10'>
-      <div className='flex flex-col  items-start justify-center gap-4 '>
+    <div className='px-4 sm:px-10 mt-6 sm:mt-14 flex flex-col sm:flex-row items-center justify-center gap-10 '>
+      <div className='flex flex-col  items-start justify-center gap-4 w-full  sm:w-[65%]'>
       <div className='flex flex-col items-start justify-center'>
           <p className="text-[#224c89] text-xl sm:text-2xl font-semibold">
             <span className="font-bold text-3xl">19</span> Years To Infinity...
@@ -28,7 +28,7 @@ const Purpose = () => {
         </button>
       </div>
 
-      <div className=' rounded-2xl w-full h-full'>
+      <div className=' rounded-2xl w-full sm:w-[35%] h-full'>
         <Image 
         alt='logo'
         src={Presence}
