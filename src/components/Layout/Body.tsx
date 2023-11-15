@@ -1,17 +1,17 @@
-import React from 'react'
-import Globe from '@/assets/globe.png';
+import React, { useState } from 'react';
 import Image from 'next/image';
+import Carousel1 from '@/assets/carousel1.png';
+import Carousel2 from '@/assets/carousel2.png';
 
 const Body = () => {
+  const images = [Carousel1, Carousel2];
+  
+
   return (
     <div>
-      <Image
-      alt='globe'
-      src={Globe}
-      className="w-full h-full object-contain"
-      />
-    </div>
-  )
-}
 
-export default Body
+    </div>
+  );
+};
+
+export default Body;

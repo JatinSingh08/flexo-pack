@@ -21,8 +21,8 @@ export default function Home() {
       <div className='min-h-[100vh]'>
         <Body />
         <Purpose />
-        <Brochure />
         <BrandPartners />
+        <Brochure />
         <Applications />
         <MostPopular />
       </div>
