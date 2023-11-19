@@ -8,7 +8,7 @@ const Header = () => {
     <div className="shadow-md px-2 sm:px-10 md:px-24  py-3 sm:py-5 flex items-center justify-between bg-[#224c89] ">
        <ul className="text-white flex items-center justify-center gap-3 sm:gap-8">
         <li><Link href='/' className="text-xs sm:text-2xl font-semibold">Home</Link></li>
-        <li><Link href='/' className="text-xs sm:text-2xl font-semibold">About Us</Link></li>
+        <li><Link href='/about' className="text-xs sm:text-2xl font-semibold">About Us</Link></li>
         <li><Link href='/' className="text-xs sm:text-2xl font-semibold">Accessories</Link></li>
       </ul>
       <div className='flex items-center justify-center gap-4'>
