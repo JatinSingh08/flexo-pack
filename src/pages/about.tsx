@@ -1,4 +1,5 @@
 import AboutBanner from '@/components/AboutUs/Banner'
+import CompanyStats from '@/components/AboutUs/CompanyStats'
 import OurCompany from '@/components/AboutUs/OurCompany'
 import Banner from '@/components/Layout/Banner'
 import Footer from '@/components/Layout/Footer'
@@ -14,6 +15,7 @@ const About = () => {
       <div className='min-h-[100vh]'>
         <AboutBanner />
         <OurCompany />
+        <CompanyStats />
       </div>
       <Footer />
     </main>
