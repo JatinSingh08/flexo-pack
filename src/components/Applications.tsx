@@ -42,7 +42,7 @@ const Applications = () => {
   }, [brands.length]);
 
   return (
-    <div className="flex-col flex items-center justify-center mt-10 sm:mt-20">
+    <div className="flex-col flex items-center justify-center mt-10 mb-8 sm:mt-20">
       <p className="text-2xl sm:text-4xl font-bold bg-[#224c89] py-4 sm:py-6 w-full text-white text-center">Applications</p>
       {/* <div className="relative w-full overflow-hidden">
         <div

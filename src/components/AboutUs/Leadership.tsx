@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import member1 from "@/assets/member-1.png";
-import member2 from "@/assets/member-2.png";
-import member3 from "@/assets/member-3.png";
 import leadership from "@/assets/leadership.png";
+
 const Leadership = () => {
   return (
     <div className="px-2 lg:px-20 py-10">

@@ -3,6 +3,7 @@ import CompanyStats from '@/components/AboutUs/CompanyStats'
 import Leadership from '@/components/AboutUs/Leadership'
 import MissionVision from '@/components/AboutUs/MissionVision'
 import OurCompany from '@/components/AboutUs/OurCompany'
+import Tagline from '@/components/AboutUs/Tagline'
 import Banner from '@/components/Layout/Banner'
 import Footer from '@/components/Layout/Footer'
 import Header from '@/components/Layout/Header'
@@ -20,6 +21,7 @@ const About = () => {
         <CompanyStats />
         <MissionVision />
         <Leadership />
+        <Tagline />
       </div>
       <Footer />
     </main>
