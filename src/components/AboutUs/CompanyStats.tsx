@@ -49,6 +49,7 @@ const CompanyStats = () => {
       width={1200}
       height={800}
       className="w-full lg:w-[60%] h-full object-contain"
+      draggable={false}
       />
     </div>
   );

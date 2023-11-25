@@ -13,6 +13,7 @@ const Leadership = () => {
         width={1200}
         height={800}
         className="w-full h-full object-contain"
+        draggable={false}
       />
       <div className=" mt-6">
         <p className="text-blue-800 border border-l-red-700 border-l-8 border-t-0 border-r-0 border-b-0 px-4 text-sm sm:text-2xl lg:ml-3">
