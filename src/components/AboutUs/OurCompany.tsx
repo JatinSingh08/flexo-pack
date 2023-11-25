@@ -4,7 +4,7 @@ const OurCompany = () => {
   return (
     <div className="bg-[#224c89] py-6 sm:py-10 px-4 sm:px-8">
       <p className="text-white font-bold text-3xl sm:text-4xl lg:text-6xl">Our Company</p>
-      <p className="mt-4 text-slate-300 text-lg  sm:text-xl">
+      <p className="mt-4 text-slate-300 text-lg sm:text-xl">
         Located at a prime location of Haryana (India), We Flexo Pack Machines
         Pvt. Ltd. are a renowned Packaging machinery Rasgulla Ball Making
         Machine exporter, manufacturer and supplier. Utilizing the best-in-class

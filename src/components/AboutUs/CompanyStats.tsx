@@ -6,7 +6,7 @@ import LegalLogo from "@/assets/legal.png";
 import FactoryLogo from "@/assets/factory.png";
 import LicenseLogo from "@/assets/license.png";
 import BuisinessLogo from "@/assets/business.png";
-
+import MissionValues from '@/assets/missionvalues.png';
 const CompanyStats = () => {
   const stats = [
     {
@@ -42,65 +42,14 @@ const CompanyStats = () => {
   ];
 
   return (
-    <div>
-      <div className="flex items-center justify-center gap-10">
-        {/* // <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center place-items-center gap-10 my-10"> */}
-        <div className="flex items-center justify-center gap-4">
-          <div className="flex flex-col items-center justify-center">
-            <Image
-              alt="Employees"
-              src={EmployeesLogo}
-              width={1200}
-              height={600}
-              className="w-28 h-28 object-contain"
-            />
-            <p className="text-[#224c89] font-semibold text-xl whitespace-nowrap">
-              Employees
-            </p>
-          </div>
-          <p className="text-blue-600 font-semibold text-4xl">200+</p>
-        </div>
-
-        <div className="flex items-center justify-center gap-4">
-          <div className="flex flex-col items-center justify-center">
-            <Image
-              alt="Employees"
-              src={ServiceLogo}
-              width={1200}
-              height={600}
-              className="w-28 h-28 object-contain"
-            />
-            <p className="text-[#224c89] font-semibold text-xl whitespace-nowrap">
-              Service Stations
-            </p>
-          </div>
-          <p className="text-blue-600 font-semibold text-4xl">5+</p>
-        </div>
-
-
-        <div className="flex items-center justify-center gap-4">
-          <div className="flex flex-col items-center justify-center">
-            <Image
-              alt="Employees"
-              src={LegalLogo}
-              width={1200}
-              height={600}
-              className="w-28 h-28 object-contain"
-            />
-            <p className="text-[#224c89] font-semibold text-xl whitespace-nowrap">
-            Legal Status of firm
-            </p>
-          </div>
-          <p className="text-blue-600 font-semibold text-4xl">Pvt.Ltd</p>
-        </div>
-
-      </div>
-
-
-      <div>
-        
-      </div>
-
+    <div className="flex items-center justify-center py-4 px-4">
+      <Image 
+      alt="missionvalues"
+      src={MissionValues}
+      width={1200}
+      height={800}
+      className="w-full lg:w-[60%] h-full object-contain"
+      />
     </div>
   );
 };
